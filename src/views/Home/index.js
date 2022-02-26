@@ -1,12 +1,13 @@
 import React from "react";
 import * as Styles from './styles'
 
+//Componentes
+import EmailContent from "../../components/EmailContent";
+
 function Home(){
     return(
         <Styles.Container>
-            <Styles.Content>
-
-            </Styles.Content>
+            <EmailContent/>
         </Styles.Container>
     )
 }
