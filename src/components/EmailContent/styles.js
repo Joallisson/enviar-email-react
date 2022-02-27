@@ -143,6 +143,10 @@ export const TitleContent = styled.div`
     label{
         font-weight: bold;
         margin-bottom: 3px;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     input{
@@ -165,6 +169,10 @@ export const Description = styled.div`
     label{
         font-weight: bold;
         margin-bottom: 3px;
+
+        &:hover{
+            cursor: pointer;
+        }
     }
 
     textarea{
