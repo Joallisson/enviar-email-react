@@ -20,6 +20,10 @@ export const Container = styled.div`
         border-radius: 50px;
         font-size: 24px;
         color: #fff;
+
+        &:hover{
+            cursor: pointer;
+        }
         
 
         display: flex;
