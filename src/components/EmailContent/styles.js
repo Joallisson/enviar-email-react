@@ -182,5 +182,6 @@ export const Description = styled.div`
         font-size: 16px;
         padding-top: 10px;
         padding-left: 10px;
+        border: none;
     }
 `
