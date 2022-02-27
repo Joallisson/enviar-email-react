@@ -4,13 +4,15 @@ import * as Styles from './styles'
 //ÍCONES
 import emailIcon from '../../Assets/emailIcon.png'
 import userIcon from '../../Assets/userIcon.png'
+import sendIcon from '../../Assets/sendIcon.png'
 
 function EmailContent(){
     return(
         <Styles.Container>
-            <Styles.Content>
 
-                <span id="faleConosco">Fale Conosco</span>
+            <span id="faleConosco">Fale Conosco</span>
+
+            <Styles.Content>
 
                 <Styles.NameContent>
                     <label for="nameInput">NOME COMPLETO</label>
@@ -40,7 +42,10 @@ function EmailContent(){
 
             </Styles.Content>
 
-            <button id="btnEnviar">Enviar</button>
+            <button id="btnEnviar">
+                <img src={sendIcon} alt="sendIcon"/>
+                Enviar
+            </button>
         </Styles.Container>
     )
         
